@@ -1,0 +1,38 @@
+
+header {padding: 20px 0;}
+
+body.fixed-nav header {
+    position: fixed;
+}
+
+header {
+    background: $white;
+    top: 0;
+    width: 100%;
+    transition: all 0.5s;
+    position: relative;
+    z-index: 1;
+}
+
+.brand-logo {
+    @extend .logo;
+}
+nav ul {
+    li { 
+        padding: 10px;
+        text-transform: uppercase;
+        
+        a {
+            position: relative;
+            color: $black-2;
+            font-size: 15px;
+            cursor: pointer;
+            @extend .line-hover;
+        }
+        &.current {
+            a::after {
+                width: 100%;
+            }
+        }
+    }
+}

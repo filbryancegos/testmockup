@@ -1,0 +1,23 @@
+#about-demo {
+    background: url(../img/banner1.jpg) no-repeat;
+   @extend .banner;
+    h1 {
+        color: $white;
+        text-transform: uppercase;
+    }
+    p {
+        color: $yellow;
+        font-size: 25px;
+    }
+}
+
+#our-mission {
+    padding-top: 5rem;
+}
+#about-us {
+    padding: 5rem 0;
+}
+#how-can-we-help {
+    padding-bottom: 5rem;
+}
+

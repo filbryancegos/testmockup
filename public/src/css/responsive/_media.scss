@@ -1,0 +1,76 @@
+@media (max-width: 767.98px) { 
+    header {
+        height: 80px;
+        .brand-logo {
+            height: 80px;
+            width: 80px;
+        }
+    }
+// about
+    #our-mission {
+        padding-top: 3rem;
+    }
+    #about-us {
+        padding: 3rem 0;
+        img {
+            padding-top: 3rem;
+        }
+    }
+    .btn-1 {
+        margin-top: 2rem;
+    }
+    #how-can-we-help {
+        padding-bottom: 3rem;
+    }
+
+// contact
+    #contact-us {
+        padding: 3rem 0;
+    }
+    #contact-form {
+        padding-bottom: 3rem;
+    }
+
+// footer
+    #footer-bg {
+        padding: 5rem 0;
+        .footer-nav {
+            display: block !important;
+            text-align: center;
+            a {
+                cursor: pointer;
+            }
+        }
+    }
+
+// home
+    #we-offer {
+        .col-lg-4 {
+            display: block !important;
+            text-align: center;
+            .fas {
+                padding-bottom: .8em;
+            }
+        }
+    }
+    #we-offer, #our-expertise {
+        padding: 3rem 0;
+    }
+
+    #we-offer .col-lg-4:not(:last-child) {
+        padding-bottom: 3rem;
+    }
+
+    #our-expertise {
+        .progress-wrapper {
+            padding-bottom: 3rem;
+        }
+    }
+    #magic-section {
+        padding-bottom: 3rem;
+        h3 {
+            padding-top: 3rem;
+        }
+    }
+
+}

@@ -1,0 +1,86 @@
+html, body {
+  background-color: $white;
+  color: $black-2;
+  font-size: 20px;
+}
+
+body, input, select, textarea, button, a {
+   font-family: $work-sans;
+   font-weight: 300;
+}
+
+p, address {
+    font-family: $work-sans;
+		font-size: .75rem;
+    line-height: 1.25rem;
+}
+
+h1 {
+	font-size: 60px;
+	color: $black-2;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 35px;
+	font-weight: 300 !important;
+	text-transform: uppercase;
+}
+
+h2, h3 {
+	position: relative;
+		@extend .line;
+		text-transform: uppercase;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+.fs_20 {
+	font-size: 20px!important;
+}
+.fs_18 {
+	font-size: 18px!important;
+}
+.fs_16 {
+	font-size: 16px!important;
+}
+.fs_15 {
+	font-size: 15px!important;
+}
+.fs_14 {
+	font-size: 14px!important;
+}
+.fs_13 {
+	font-size: 13px!important;
+}
+.fs_12 {
+	font-size: 12px!important;
+}
+.fs_11 {
+	font-size: 11px!important;
+}
+
+.btn-1 {
+	background: transparent;
+    border-radius: 0;
+    border: 1px solid #b1acac;
+    padding: 14px 20px;
+    transition: .2s;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 2rem;
+    font-size: 19px;
+	&:hover {
+		border: 1px solid $yellow;
+		color: $yellow;
+	}
+	margin-top: 2rem;
+}
+

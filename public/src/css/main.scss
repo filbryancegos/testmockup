@@ -1,0 +1,32 @@
+
+/*load vendor*/
+@import 'vendor/bootstrap.scss';
+@import 'vendor/animate.scss';
+
+/*load abstract*/
+@import 'abstract/variables';
+
+/*load base*/
+@import 'base/utilities';
+@import 'base/typography';
+
+/*load mixins*/
+@import 'mixins/mixins_general';
+//@import 'mixins/mixins_breakpoints';
+
+/*load animate*/
+@import 'animate/animate';
+
+/*load components*/
+@import 'components/extend';
+@import 'components/menu';
+
+/*load sections*/
+@import 'sections/header';
+ @import 'sections/home';
+ @import 'sections/about';
+ @import 'sections/contact';
+ @import 'sections/footer';
+
+/*load responsive*/
+@import 'responsive/media';
